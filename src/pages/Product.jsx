@@ -8,7 +8,7 @@ export default function Product() {
       <section>
         <img
           src="product.jpeg"
-          alt="person with dog overlooking mountain with sunset"
+          alt="overview of a large city with skyscrapers"
         />
         <div>
           <h2>About Waypoint.</h2>
