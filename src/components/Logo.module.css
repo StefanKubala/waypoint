@@ -1,0 +1,13 @@
+.logoContainer {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.logoContainer p {
+  font-size: 2rem;
+}
+
+.logo {
+  height: 6rem;
+}
