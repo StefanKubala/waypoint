@@ -7,6 +7,8 @@
 .logoContainer p {
   font-size: 2rem !important;
   margin-bottom: 0 !important;
+  color: #fff;
+  text-decoration: none;
 }
 
 .logo {
