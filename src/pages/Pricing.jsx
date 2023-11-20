@@ -19,6 +19,7 @@ export default function Pricing() {
           </p>
         </div>
         <img
+          className={styles.imgPricing}
           src="pricing.jpeg"
           alt="overview of a large city with skyscrapers"
         />
