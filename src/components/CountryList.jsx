@@ -3,9 +3,11 @@ import Message from "./Message";
 import Spinner from "./Spinner";
 
 import styles from "./CountryList.module.css";
+import { useCities } from "../contexts/CitiesContext";
 
 /* eslint-disable react/prop-types */
-export default function CountryList({ cities, isLoading }) {
+export default function CountryList() {
+  const { cities, isLoading } = useCities();
   if (isLoading) return <Spinner />;
 
   if (!cities.length)

@@ -42,3 +42,39 @@
   font-family: inherit;
   font-size: 1.2rem;
 }
+
+.formBtn {
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 1rem #727272;
+  border-radius: 1rem;
+  display: block;
+  border: none;
+  cursor: pointer;
+}
+
+.formBtn:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+  transform: scale(1.05);
+}
+
+.btnBack {
+  background-color: var(--color-dark--2);
+}
+
+.btnAdd {
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #f09819 51%,
+    #ff512f 100%
+  );
+}
