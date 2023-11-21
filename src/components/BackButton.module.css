@@ -1,0 +1,23 @@
+.backBtn {
+  background-color: var(--color-dark--2);
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 1rem #727272;
+  border-radius: 1rem;
+  display: block;
+  border: none;
+  cursor: pointer;
+}
+
+.backBtn:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+  transform: scale(1.05);
+}
