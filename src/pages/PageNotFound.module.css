@@ -1,0 +1,41 @@
+.pageNotFound {
+  margin: 2.5rem;
+  padding: 2.5rem 5rem;
+  background-color: var(--color-dark--1);
+  min-height: calc(100vh - 5rem);
+}
+
+.pageNotFound div {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.notFoundBtn {
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #f09819 51%,
+    #ff512f 100%
+  );
+  padding: 1.2rem 2.4rem;
+  margin: 2rem auto;
+  font-size: 1.9rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 1rem #727272;
+  border-radius: 1rem;
+  display: block;
+  border: none;
+  cursor: pointer;
+}
+
+.notFoundBtn:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+  transform: scale(1.05);
+}
