@@ -28,6 +28,18 @@ export default function City() {
     [id]
   );
 
+  useEffect(
+    function () {
+      if (!cityName) return;
+      document.title = `Waypoint | ${cityName}`;
+
+      return function () {
+        document.title = "Waypoint";
+      };
+    },
+    [cityName]
+  );
+
   if (isLoading) return <Spinner />;
 
   return (
