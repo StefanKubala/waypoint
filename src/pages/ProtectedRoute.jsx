@@ -13,6 +13,5 @@ export default function ProtectedRoute({ children }) {
     },
     [isAuthenticated, navigate]
   );
-  console.log(isAuthenticated);
   return isAuthenticated ? children : null;
 }
