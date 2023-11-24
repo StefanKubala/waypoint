@@ -25,3 +25,10 @@
 .logo {
   height: 6rem;
 }
+
+@media only screen and (max-width: 768px) {
+  .sidebar {
+    flex-basis: auto;
+    height: 57rem;
+  }
+}

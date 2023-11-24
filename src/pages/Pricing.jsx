@@ -1,9 +1,9 @@
 import Navbar from "../components/Navbar";
-import styles from "./Product.module.css";
+import styles from "./Pricing.module.css";
 
 export default function Pricing() {
   return (
-    <main className={styles.product}>
+    <main className={styles.pricing}>
       <Navbar />
       <section>
         <div>

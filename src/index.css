@@ -94,3 +94,21 @@ input:focus {
   text-decoration: none;
   transform: scale(1.05);
 }
+
+@media only screen and (max-width: 992px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  html {
+    font-size: 42%;
+  }
+}
