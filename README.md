@@ -2,6 +2,8 @@
 
 Waypoint is a travel companion application that enhances your travel experience by allowing you to save and revisit your favorite destinations. The app provides a seamless login experience, personalized trip creation, and convenient location-based features.
 
+![Waypoint desktop design](https://github.com/StefanKubala/waypoint/blob/main/public/Screenshot.png "Waypoint desktop design")
+
 ## Features
 
 1. **User Authentication:**
